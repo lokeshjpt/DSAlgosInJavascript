@@ -2,7 +2,7 @@
 // bubble sort
 let arr = [15, 12, 14, 29, 17, 10, 28];
 
-console.log('Input array : ', arr);
+console.log('Input array before sorting: ', arr);
 
 for(i=arr.length-1; i > 0; i--){
   for(j=0; j<i; j++){
